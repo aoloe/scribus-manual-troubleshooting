@@ -19,6 +19,10 @@ If Scribus suddenly behaves oddly, there could be three reasons:
       - Press `alt-space` to show the "Window"-dialog
       - With the keyboard, select the "move" action.
       - Use the keyboard arrows to move around the dialog until it's visible again.
+- If a toolbar has disappeared:
+  - Right click on the gray area next to another toolbar and re-activate the one that you are missing
+- If a toolbar is not where it used to be:
+  - Move the toolbar to area where it used to be: slowly move it in small circles until it shows as docked and then release the mouse.
 
 ### A corrupted document
 
