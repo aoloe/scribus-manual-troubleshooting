@@ -65,3 +65,4 @@ If this does not solve your issue you can remove the newly created `Scribus` dir
 
 ### Recreate the settings on Microsoft Windows
 
+On Windows 8 there seems to be a Scribus directory in the `AppData` directory.
