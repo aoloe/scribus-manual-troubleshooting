@@ -1,6 +1,15 @@
 # Troubleshooting
 
-## Scribus does not behave correctly
+What can you do when Scribus does not behave correctly?
+
+
+## Missing fonts
+
+Jean says : In any case you will have to reset font prefences by deleting the checkfonts.xml and
+scribus150.rc files stored in preference folder, usually
+C:\Users\username\AppData\Roaming\Scribus.
+
+## It does not behave correctly...
 
 In our experience, reinstalling Scribus is not a solution to (almost) any problem.
 
@@ -10,7 +19,9 @@ If Scribus suddenly behaves oddly, there could be three reasons:
 - the document is corrupted;
 - the settings are corrupted.
 
-### A wrong setting
+
+
+## Missing Dialogs, Windows or Toolbars
 
 - If a specific dialog does not show:
   - It could be outside of the visible part of the screen:
@@ -24,15 +35,15 @@ If Scribus suddenly behaves oddly, there could be three reasons:
 - If a toolbar is not where it used to be:
   - Move the toolbar to area where it used to be: slowly move it in small circles until it shows as docked and then release the mouse.
 
-### A corrupted document
+## A corrupted document
 
-### Corrupted settings
+## Corrupted settings
 
 If the settings are corrupted you can get Scribus to recreate them.
 
 _Warning_: You will lose your current settings (list of active fonts, visibility of the toolbars, ...) by doing so. If possible, you should first backup your current settings (see below).
 
-#### Recreate the settings on Linux
+### Recreate the settings on Linux
 
 First make sure that Scribus is not running.
 
@@ -52,7 +63,7 @@ If this does not solve your issue
     $ mv scribus~ .scribus
     $ scribus
 
-### Recreate the settings on Mac OS X
+## Recreate the settings on Mac OS X
 
 Your settings are in ` ~/Library/Preferences/Scribus/`.  
 `~` is your user's directory (mostly `/Users/YourName/`).
@@ -63,7 +74,7 @@ Close Scribus and then rename the `Scribus` directory in the user's preferences 
 
 If this does not solve your issue you can remove the newly created `Scribus` directory and then rename `Scribus~` back to `Scribus`.
 
-### Recreate the settings on Microsoft Windows
+## Recreate the settings on Microsoft Windows
 
 On Windows 8 there seems to be a Scribus directory in the `AppData` directory.
 
