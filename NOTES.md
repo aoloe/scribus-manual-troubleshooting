@@ -15,6 +15,12 @@ il y a souvent -- confusion entre des jolies images et des images correctes.
 
 le fait que tes images soient jolies sur ton écran, n'a que peu à voir avec la qualité des images imprimées... sauf si tu as installé et activé les bons profils et calibré ton écran!
 
+
+si tu as de bonnes photos (livrées par un photographe qui sait ce qu'il fait!), tu ne les a pas éditées sur ton ordinateur, tu n'utilise pas de profil colorimétrique et tu inclues les images telles quelles dans le pdf, dans ce cas elles devraient sortir correctes à l'impression.
+
+mais c'est beaucoup de si... et si une seule de ces conditions n'est réalisée, ben, il n'y a pas grand chose qui soit encore assuré...  
+même si avec un peu de chance -- la plus part du temps -- t'auras un résultats acceptable (ou même bon).
+
 ## The images do not look in print like in Scribus
 
 If you let Scribus resize your images when exporting to PDF, you could have nasty effects in the resulting print (banding, ...)
