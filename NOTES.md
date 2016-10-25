@@ -2,6 +2,8 @@
 
 What can you do when Scribus does not behave correctly?
 
+Warning: it's very likely that it's not a good idea to create this document. Probably, we will move the content to each specific manual in a "Troubleshooting" chapter.
+
 
 ## Missing fonts
 
