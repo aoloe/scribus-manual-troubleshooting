@@ -15,7 +15,13 @@ il y a souvent -- confusion entre des jolies images et des images correctes.
 
 le fait que tes images soient jolies sur ton écran, n'a que peu à voir avec la qualité des images imprimées... sauf si tu as installé et activé les bons profils et calibré ton écran!
 
-## It does not behave correctly...
+## The images do not look in print like in Scribus
+
+If you let Scribus resize your images when exporting to PDF, you could have nasty effects in the resulting print (banding, ...)
+
+If you want to keep full control on the way images are printed, you should resize them before loading them into Scribus.
+
+## Scribus does not behave correctly...
 
 In our experience, reinstalling Scribus is not a solution to (almost) any problem.
 
