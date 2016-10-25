@@ -9,6 +9,12 @@ Jean says : In any case you will have to reset font prefences by deleting the ch
 scribus150.rc files stored in preference folder, usually
 C:\Users\username\AppData\Roaming\Scribus.
 
+## I get the wrong colors from the printer
+
+il y a souvent -- confusion entre des jolies images et des images correctes.
+
+le fait que tes images soient jolies sur ton écran, n'a que peu à voir avec la qualité des images imprimées... sauf si tu as installé et activé les bons profils et calibré ton écran!
+
 ## It does not behave correctly...
 
 In our experience, reinstalling Scribus is not a solution to (almost) any problem.
@@ -18,8 +24,6 @@ If Scribus suddenly behaves oddly, there could be three reasons:
 - you have changed a setting; 
 - the document is corrupted;
 - the settings are corrupted.
-
-
 
 ## Missing Dialogs, Windows or Toolbars
 
