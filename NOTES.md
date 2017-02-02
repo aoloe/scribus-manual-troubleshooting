@@ -98,3 +98,8 @@ On Windows 8 there seems to be a Scribus directory in the `AppData` directory.
 
 The prefs140.xml file probably is in `C:\Users\<username>\AppData\Roaming\Scribus`.  
 Rename this file to force Scribus to create a fresh one (as it does when you first run it).
+
+## I cannot edit my document
+
+- check if you have multiple layers (window > layers) and, if it's the case, you're on the right one and it's not locked.
+-  check that view > preview > preview mode is not enabled
