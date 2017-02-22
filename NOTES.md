@@ -103,3 +103,17 @@ Rename this file to force Scribus to create a fresh one (as it does when you fir
 
 - check if you have multiple layers (window > layers) and, if it's the case, you're on the right one and it's not locked.
 -  check that view > preview > preview mode is not enabled
+
+## When I export to PDF there is nothing
+
+In the layers dialog, make sure that your Layers are "printable".
+
+## I cannot apply "abc" formatting in the Story editor
+
+- n'utilise pas l'éditeur "interne". sauf si tu en as vraiment besoin. (mas c'est rare)
+- double clique sur le cadre pour éditer le contenu d'un cadre texte.
+- ouvre la palette des propriétés (depuis le menu "fenêtre" et cherche le tab "texte"
+
+## I cannot apply bold / italic
+
+- scribus ne connaît ni gras ni italique. il te faut utiliser la variante gras ou italique de la police (dans la liste des polices...)
