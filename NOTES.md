@@ -11,6 +11,12 @@ Jean says : In any case you will have to reset font prefences by deleting the ch
 scribus150.rc files stored in preference folder, usually
 C:\Users\username\AppData\Roaming\Scribus.
 
+### Missing DejaVu
+
+As of January 2017, Debian testing and Ubuntu 16.04/16.10 are distributing a version of the `freetype` library (2.6.3) that is affected by a bug that prevents Scribus from loading outlines of some glyphs with the DejaVu font (and others).
+
+Freetype 2.6.5 contains a fix for this issue. 2.6.4 might or not also have the fix.
+
 ## I get the wrong colors from the printer
 
 il y a souvent -- confusion entre des jolies images et des images correctes.
