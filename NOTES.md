@@ -15,7 +15,7 @@ C:\Users\username\AppData\Roaming\Scribus.
 
 As of January 2017, Debian testing and Ubuntu 16.04/16.10 are distributing a version of the `freetype` library (2.6.3) that is affected by a bug that prevents Scribus from loading outlines of some glyphs with the DejaVu font (and others).
 
-Freetype 2.6.5 contains a fix for this issue. 2.6.4 might or not also have the fix.
+Freetype 2.6.5 contains a fix for this issue. The fix might already be in the 2.6.4 version.
 
 ## I get the wrong colors from the printer
 
