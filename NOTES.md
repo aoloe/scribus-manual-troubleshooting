@@ -100,7 +100,7 @@ If this does not solve your issue you can remove the newly created `Scribus` dir
 
 ## Recreate the settings on Microsoft Windows
 
-On Windows 8 there seems to be a Scribus directory in the `AppData` directory.
+On Windows 8 and Windows 10 there is a Scribus directory in the `AppData` directory.
 
 The prefs140.xml file probably is in `C:\Users\<username>\AppData\Roaming\Scribus`.  
 Rename this file to force Scribus to create a fresh one (as it does when you first run it).
