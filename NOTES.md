@@ -125,3 +125,15 @@ In the layers dialog, make sure that your Layers are "printable".
 ## I cannot apply bold / italic
 
 - scribus ne connaît ni gras ni italique. il te faut utiliser la variante gras ou italique de la police (dans la liste des polices...)
+
+## When exporting to Pdf my images get a white background
+
+If your document contains transparencies, when exporting to PDF you will have use a version that supports them.
+
+As an example, pdf 1.4 and pdf 1.5 do support them, but many pdf standards do not support transparencies...
+
+But take care: even if those "newer" standards have been around for a long time, your print shop might not accept them or break them.
+
+## When printing my document, my images get a white background
+
+Don't print directly from Scribus, first create a Pdf and then print it with a (good) Pdf reader.
