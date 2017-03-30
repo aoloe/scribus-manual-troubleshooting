@@ -29,6 +29,12 @@ si tu as de bonnes photos (livrées par un photographe qui sait ce qu'il fait!),
 mais c'est beaucoup de si... et si une seule de ces conditions n'est réalisée, ben, il n'y a pas grand chose qui soit encore assuré...  
 même si avec un peu de chance -- la plus part du temps -- t'auras un résultats acceptable (ou même bon).
 
+## I get different colors from different (consumer) printers
+
+- printers print differently
+- you can you try directly printing a picture (without scribus) on both printer and see if you see the same difference?
+- using color management and the matching color profiles could help in getting the same result from both printers, but most consumer printers do not provide the profiles (and they also tend to print with different tones depending on the fill state of the toners)
+
 ## The images do not look in print like in Scribus
 
 If you let Scribus resize your images when exporting to PDF, you could have nasty effects in the resulting print (banding, ...)
