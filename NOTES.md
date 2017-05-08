@@ -143,3 +143,7 @@ But take care: even if those "newer" standards have been around for a long time,
 ## When printing my document, my images get a white background
 
 Don't print directly from Scribus, first create a Pdf and then print it with a (good) Pdf reader.
+
+## Compiling Scribus
+
+- If you get weird errors, try to run `cmake` with the option `-DWANT_NOOSG=1`. It will disable OSG and you will probably never miss it.
