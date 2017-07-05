@@ -79,11 +79,15 @@ First make sure that Scribus is not running.
 
 In your file manager make sure that you can see the hidden files and directories (hidden files and directories are the ones that start with a dot).
 
+In your home directory, find the `.config` directory. It contains a `scribus` directory you can rename to `scribus~`. Start Scribus and check if your problem is solved. If it's not, you can remove the newly created `.scribus` directory and rename `scribus~` back to `.scribus`.
+
+For 1.4.x:
+
 In your home directory, find the `.scribus` directory and rename it to `scribus~`. Start Scribus and check if your problem is solved. If it's not, you can remove the newly created `.scribus` directory and rename `scribus~` back to `.scribus`.
 
 If you're comfortable with the terminal you can
 
-    $ cd
+    $ cd ~/.config
     $ mv -i .scribus scribus~
     $ scribus
 
