@@ -17,6 +17,18 @@ As of January 2017, Debian testing and Ubuntu 16.04/16.10 are distributing a ver
 
 Freetype 2.6.5 contains a fix for this issue. The fix might already be in the 2.6.4 version.
 
+On 23.01.2017 there was a discussion about this issue in the scribus irc channel.
+
+Debian testing now has 2.8.0, which does not contain bug affecting the way DejaVu is seen by Scribus.  
+Scribus will not automatically recognize again DejaVu, you first have to manually force Scribus to re-create the font cache by
+
+  - quitting Scribus,
+  - removing (or, better renaming) the ~/.config/scribus/checkfonts150.xml file
+  - starting scribus
+  
+Debian Stretch (stable in July 2017) still has 2.6.3 and i'm not sure if it will ever get 2.6.5+ (the ones without the bug)  
+The relevant bug in Debian was https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=837800 ... closed.
+
 ## I get the wrong colors from the printer
 
 il y a souvent -- confusion entre des jolies images et des images correctes.
