@@ -122,13 +122,14 @@ If this does not solve your issue you can remove the newly created `Scribus` dir
 
 ## Recreate the settings on Microsoft Windows
 
-On Windows 8 and Windows 10 there is a Scribus directory in the `AppData` directory.
+On Windows 8 and Windows 10 there is a Scribus directory in the `AppData` directory:
 
-The prefs140.xml file probably is in `C:\Users\<username>\AppData\Roaming\Scribus`.  
-Rename this file to force Scribus to create a fresh one (as it does when you first run it).
+`C:\Users\<username>\AppData\Roaming\Scribus`
 
-For 1.5.x the preferences are in ``.
+For Scribus 1.4, Scribus uses the file `prefs140.xml`.  
+For 1.5.x the preferences are in `prefs150.xml`.
 
+Rename this file to force Scribus to create a fresh one (as it does when you first run it).  
 On the next start of Scribus you will get the message:
 
 "Konnte die ... scribus150.rc nicht öffnen. unexpected end of file in Zeile 1 Spalte 1. Es werden die Standardeinstellungen geladen."
