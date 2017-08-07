@@ -126,8 +126,8 @@ On Windows 8 and Windows 10 there is a Scribus directory in the `AppData` direct
 
 `C:\Users\<username>\AppData\Roaming\Scribus`
 
-For Scribus 1.4, Scribus uses the file `prefs140.xml`.  
-For 1.5.x the preferences are in `prefs150.xml`.
+For Scribus 1.4, Scribus uses the file `prefs140.xml` (eventually also `scribus140.rc`).  
+For 1.5.x the preferences are in `prefs150.xml` (eventually also `scribus150.rc`).
 
 Rename this file to force Scribus to create a fresh one (as it does when you first run it).  
 On the next start of Scribus you will get the message:
