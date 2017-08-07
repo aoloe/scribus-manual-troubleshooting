@@ -127,6 +127,14 @@ On Windows 8 and Windows 10 there is a Scribus directory in the `AppData` direct
 The prefs140.xml file probably is in `C:\Users\<username>\AppData\Roaming\Scribus`.  
 Rename this file to force Scribus to create a fresh one (as it does when you first run it).
 
+For 1.5.x the preferences are in ``.
+
+On the next start of Scribus you will get the message:
+
+"Konnte die ... scribus150.rc nicht öffnen. unexpected end of file in Zeile 1 Spalte 1. Es werden die Standardeinstellungen geladen."
+
+Scribus will then create the new settings for you.
+
 ## I cannot edit (parts of) my document
 
 - check if you have multiple layers (window > layers) and, if it's the case, you're on the right one and it's not locked.
