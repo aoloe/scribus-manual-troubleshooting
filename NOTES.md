@@ -172,3 +172,15 @@ Don't print directly from Scribus, first create a Pdf and then print it with a (
 ## Compiling Scribus
 
 - If you get weird errors, try to run `cmake` with the option `-DWANT_NOOSG=1`. It will disable OSG and you will probably never miss it.
+
+## Monitor issues
+
+### Scaling on High DPI displays
+
+#### Windows
+
+According to [Adobe App Scaling on High DPI Displays (FIX)](http://www.danantonielli.com/adobe-app-scaling-on-high-dpi-displays-fix/), you can tell Windows to prefer external manifest and then add a manifest next to the Scribus binary.
+
+One comment to that article and a [Scribus Forum thread](http://forums.scribus.net/index.php/topic,2237.msg12076.html) seem to confirm that this hack does work.
+
+Starting with Scribus 1.5.3 you should probably have no issue anymore with HDPI.
