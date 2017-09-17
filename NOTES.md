@@ -29,6 +29,13 @@ Scribus will not automatically recognize again DejaVu, you first have to manuall
 Debian Stretch (stable in July 2017) still has 2.6.3 and i'm not sure if it will ever get 2.6.5+ (the ones without the bug)  
 The relevant bug in Debian was https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=837800 ... closed.
 
+OpenSuse 42.3 and Ubuntu 17.04 also ship a Freetype package affected by this
+issue. In both cases it is Freetype 2.6.3.
+
+According to DistroWatch, OpenSuse Tumbleweed already ships FreeType 2.8.0 which is not
+affected by this issue. Ubuntu 17.10 will have a FreeType upgrade as well and will also
+come with FreeType 2.8.0 (or maybe 2.8.1, who knows?).
+
 ## I get the wrong colors from the printer
 
 il y a souvent -- confusion entre des jolies images et des images correctes.
