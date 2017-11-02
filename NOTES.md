@@ -13,11 +13,11 @@ C:\Users\username\AppData\Roaming\Scribus.
 
 ### Missing DejaVu
 
-As of January 2017, Debian testing and Ubuntu 16.04/16.10 are distributing a version of the `freetype` library (2.6.3) that is affected by a bug that prevents Scribus from loading outlines of some glyphs with the DejaVu font (and others).
+In the recent past (January 2017), Debian testing and Ubuntu 16.04/16.10 were distributing a version of the Freetype library (2.6.3) that was affected by a bug that prevented Scribus from loading outlines of some glyphs with the DejaVu font (and others).
 
 Freetype 2.6.5 contains a fix for this issue. The fix might already be in the 2.6.4 version.
 
-On 23.01.2017 there was a discussion about this issue in the scribus irc channel.
+But your version of Debian/Ubuntu might still have one of the affected versions. 
 
 Debian testing now has 2.8.0, which does not contain bug affecting the way DejaVu is seen by Scribus.  
 Scribus will not automatically recognize again DejaVu, you first have to manually force Scribus to re-create the font cache by
