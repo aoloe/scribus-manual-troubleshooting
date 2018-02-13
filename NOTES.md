@@ -191,3 +191,11 @@ According to [Adobe App Scaling on High DPI Displays (FIX)](http://www.danantoni
 One comment to that article and a [Scribus Forum thread](http://forums.scribus.net/index.php/topic,2237.msg12076.html) seem to confirm that this hack does work.
 
 Starting with Scribus 1.5.3 you should probably have no issue anymore with HDPI.
+
+## Enabled features: the C-C-T
+
+- C: LitlleCMS is enabled
+- C: Cups is enabled
+- T: Tiff support
+
+Remark: On Windows and OS X Cups is not relevant and cannot be enabled.
