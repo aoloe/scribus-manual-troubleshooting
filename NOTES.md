@@ -36,6 +36,19 @@ According to DistroWatch, OpenSuse Tumbleweed already ships FreeType 2.8.0 which
 affected by this issue. Ubuntu 17.10 will have a FreeType upgrade as well and will also
 come with FreeType 2.8.0 (or maybe 2.8.1, who knows?).
 
+## Missing images
+
+Scribus mostly uses absolute links to the images.
+
+If you move the Scribus document with the images to a new folder or a new disk, it's likely that the images will not be rendered anymore (all the image frames will have a big red cross).
+
+While the correct way to move a Scribus document is by using "File > Collect for output", Scribus allows you to relink all the images by using "Extras > Manage images":
+
+- Start the "Extras > Manage images" tool.
+- Click on one of the missing images.
+- Click on the "Search" button and set "Start at" as the folder where images now are (or one of its parents).
+- When the tool has found the image (by its name), select it, check "Apply to all matching images" and push the "Select button".
+
 ## I get the wrong colors from the printer
 
 il y a souvent -- confusion entre des jolies images et des images correctes.
