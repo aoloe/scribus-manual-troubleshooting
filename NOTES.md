@@ -156,6 +156,14 @@ On the next start of Scribus you will get the message:
 
 Scribus will then create the new settings for you.
 
+# Finding the Scribus resources
+
+Resources like the Scrapbook are in:
+
+- On Linux: `~/.local/share/scribus/`
+- On Os X: `/User/<Your user>/Library/Application Support/Scribus/`
+- On Windows: `C:\Users\username\AppData\Roaming\Scribus\` (unconfirmed)
+
 ## I cannot edit (parts of) my document
 
 - check if you have multiple layers (window > layers) and, if it's the case, you're on the right one and it's not locked.
