@@ -224,7 +224,9 @@ Starting with Scribus 1.5.3 you should probably have no issue anymore with HDPI.
 
 Remark: On Windows and OS X Cups is not relevant and cannot be enabled.
 
-# Why the Story Editor...?
+# Something does not work in Scribus
+
+## Why the Story Editor...?
 
 TLDR: If the Story Editor does not fit your needs, don't use it.
 
