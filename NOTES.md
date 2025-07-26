@@ -223,3 +223,22 @@ Starting with Scribus 1.5.3 you should probably have no issue anymore with HDPI.
 - T: Tiff support
 
 Remark: On Windows and OS X Cups is not relevant and cannot be enabled.
+
+# Why the Story Editor...?
+
+TLDR: If the Story Editor does not fit your needs, don't use it.
+
+The Story editor is a "leftover" of the good old time, when the in frame editing was not good enough / was too sluggish.
+
+Nowadays, it might be useful in some very specific case, but not for normal editing.
+It was there in every layout software.
+
+Sadly, many tutorials present it at the very start and people think it's handy while doing very simple things (it is probably less overwhelming than having to show/hide the palettes and figure out what all those buttons mean... then, when they miss some features, instead of switching to the in frame editing complain that the Story editor is not good enough...)
+
+Anyway, I don't think that there will be any relevant change to the Story editor.
+It's dead code.
+It has already been for many years.
+But it would be nice to have a new editor that focuses on performance of the editing, maybe external to Scribus and enabling multiple users to edit different parts of the Scribus file.
+
+But we need several other improvements to Scribus, before such a tool would really be useful.
+So, it's not for the near future.
