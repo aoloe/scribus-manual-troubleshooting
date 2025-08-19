@@ -8,6 +8,11 @@ Warning: it's very likely that it's not a good idea to create this document. Pro
 
 - set the preview level to "small" in the outline window.
 
+## Suddenly, I am no longer able to select frames and change their shape
+
+- Are you on the correct layer?
+- Is the layer locked?
+
 ## Missing fonts
 
 Jean says : In any case you will have to reset font prefences by deleting the checkfonts.xml and
