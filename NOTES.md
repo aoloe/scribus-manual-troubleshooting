@@ -249,3 +249,25 @@ But it would be nice to have a new editor that focuses on performance of the edi
 
 But we need several other improvements to Scribus, before such a tool would really be useful.
 So, it's not for the near future.
+
+# Download issues
+
+## Scribus is not a virus / trojan
+
+We sometimes get messages from user affirming that some anti virus tiool flagged the Scribus installer they have downloaded.
+
+If you are sure that you downloaded the correct package by following the links on <https://scribus.net/downloads> and you trust the antivirus tool, then do not install Scribus for now.  
+Try in a few days or hours again and see if the package is still flagged.
+
+Do not install Scribus.
+
+This having been said:
+
+- Are you 100% sure that you got the installer from the Sourceforge page linked from <https://scribus.net/downloads>?
+- Do you trust you the antivirus or is it a random antivirus you installed from the internet?
+  If you're using Windows, you should probably only use the antivirus provided by Microsoft and trust it: it's good enough.
+  If it's not your only antivirus or if you don't really trust it, you probably need to reconsider your security choices.
+- About twice a year we get reports that Scribus got flagged by one of many tools (often VirusTotal is mentioned).  
+  As far as we can tell, the reports were never correct.  
+  And nobody is known to ever got a virus from an installer downloaded from the links on the official page.
+- If you really want to do something, you should get in touch with the publisher of the antivirus and get them to check if the alert is legit. But it's unlikely that you will ever get a reply.
